@@ -1,25 +1,12 @@
-#include <iostream>
+#include <iostream.h>
 
-using namespace std;
-
-class stu
+class student
 {
-	public:
-	stu()
+	int a;
+public:
+	void init(int i);
+	void dis()
 	{
-		i = 1;
+		cout<<"a="<<a<<endl;
 	}
-	int get_i()
-	{
-		return i;
-	}
-	private:
-	int i;
 };
-
-void main()
-{
-	stu t;
-	int i = t.get_i();
-	cout<<i<<endl;
-}
