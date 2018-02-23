@@ -1,12 +1,9 @@
-#include <iostream.h>
+#include"iostream"
 
-class student
+using namespace std;
+
+void main()
 {
-	int a;
-public:
-	void init(int i);
-	void dis()
-	{
-		cout<<"a="<<a<<endl;
-	}
-};
+	cout <<"wwfwef"<< endl;
+
+}
